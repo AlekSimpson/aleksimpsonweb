@@ -1,0 +1,25 @@
+.App-body
+{
+    /*background-color: #000000;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.Title
+{
+  color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc( 100px + 2vmin);
+}
+
+.Sub-intro
+{
+  color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc(1px + 2vmin);
+}

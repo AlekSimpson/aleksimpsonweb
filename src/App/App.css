@@ -1,18 +1,30 @@
 .App 
 {
-  text-align: flex-start;
+  background-color: #000000;
+  background: black;
 }
+
+/* Header */
 
 .App-header 
 {
-  background-color: #000000;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
+  /*font-size: calc(10px + 2vmin);
   color: white;
-  padding-left: 30%;
-  margin-bottom: 0%;
+  padding-left: 5%;
+  padding-right: 30%;*/
+}
+
+.Home-button
+{
+  /*font-family: cascadia-code;*/
+  padding-left: 3%;
+  color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc(3px + 2vmin);
 }

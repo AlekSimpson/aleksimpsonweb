@@ -1,15 +1,15 @@
+import React from 'react'
 import './App.css';
+import LandingPage from '../LandingPage/LandingPage'
 
 function App() 
 {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Hello, World. 
-          <br/>I am a freelance web developer and programmer from Arizona. 
-        </p>
-      </header>
+      <p className="Home-button">
+        Alek-Simpson/
+      </p>
+      <LandingPage/>  
     </div>
   );
 }

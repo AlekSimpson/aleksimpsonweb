@@ -1,15 +1,14 @@
 import React from 'react'
 import './App.css';
 import LandingPage from '../LandingPage/LandingPage'
+import TopBar from '../TopBar/TopBar'
 
 function App() 
 {
   return (
     <div className="App">
-      <p className="Home-button">
-        Alek-Simpson/
-      </p>
-      <LandingPage/>  
+      <TopBar/>
+      <LandingPage/> 
     </div>
   );
 }

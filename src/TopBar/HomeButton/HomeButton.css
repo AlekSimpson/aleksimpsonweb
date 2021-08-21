@@ -1,0 +1,10 @@
+.HomeButton
+{
+  /*font-family: cascadia-code;*/
+  padding-top: 1%;
+  padding-left: 2%;
+  color: white;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: calc(3px + 2vmin);
+}

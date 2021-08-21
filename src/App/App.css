@@ -1,7 +1,8 @@
 .App 
 {
-  background-color: #000000;
+  background-color: black;
   background: black;
+  min-height: 100vh;
 }
 
 /* Header */
@@ -13,18 +14,4 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
-  /*font-size: calc(10px + 2vmin);
-  color: white;
-  padding-left: 5%;
-  padding-right: 30%;*/
-}
-
-.Home-button
-{
-  /*font-family: cascadia-code;*/
-  padding-left: 3%;
-  color: white;
-  align-items: flex-start;
-  justify-content: flex-start;
-  font-size: calc(3px + 2vmin);
 }

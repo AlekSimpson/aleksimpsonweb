@@ -1,0 +1,7 @@
+.TopBar
+{
+    display: flex;
+    width: 100vw;
+    background-color: red;
+    z-index: 9;
+}

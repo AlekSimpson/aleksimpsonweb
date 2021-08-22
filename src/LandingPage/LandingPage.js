@@ -6,10 +6,10 @@ function LandingPage()
     return(
         <div className="App-body">
             <div className="Title">
-                Hi, I am Alek.  
+                Hi, <br/>I am Alek.  
             </div>
             <div className="Sub-intro">
-                Freelancer / web developer / programmer
+                Freelancer / Web Dev / Programmer
             </div>
         </div>
     )

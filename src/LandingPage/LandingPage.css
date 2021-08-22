@@ -1,21 +1,23 @@
 .App-body
 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    padding-left: 2%;
-
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 2%;
 }
 
 .Title
 {
+  display: flex;
   color: white;
   font-size: calc( 100px + 2vmin);
 }
 
 .Sub-intro
 {
+  display: flex;
   color: white;
   font-size: calc(1px + 2vmin);
 }

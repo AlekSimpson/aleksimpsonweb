@@ -4,9 +4,8 @@ import HomeButton from './HomeButton/HomeButton'
 function TopBar()
 {
     return(
-        <div>
+        <div className="TopBar">
             <HomeButton/>
-            
         </div>
     )
 }

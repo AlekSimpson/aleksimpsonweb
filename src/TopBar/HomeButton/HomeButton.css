@@ -1,11 +1,11 @@
 .HomeButton
 {
   /*font-family: cascadia-code;*/
-  display: flex;
+  /*display: flex;*/
   padding-top: 1%;
   padding-left: 1%;
   color: white;
   font-size: medium;
-  position: fixed;
+  /*background-color: black;*/
   z-index: 10;
 }

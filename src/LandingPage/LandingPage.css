@@ -2,22 +2,42 @@
 {
   min-height: 90vh;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 7%;
+}
+
+.Hello
+{
+  min-height: 90vh;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding-left: 2%;
+}
+
+.Text
+{
+  min-height: 90vh;
+  min-width: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  
+  font-size: calc(1px + 1.5vmin);
 }
 
 .Title
 {
   display: flex;
   color: white;
-  font-size: calc( 100px + 2vmin);
+  font-size: calc( 150px + 2vmin);
 }
 
 .Sub-intro
 {
   display: flex;
   color: white;
-  font-size: calc(1px + 2vmin);
+  font-size: calc(5px + 2vmin);
 }

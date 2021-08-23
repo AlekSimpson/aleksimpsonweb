@@ -2,34 +2,25 @@ import React from 'react'
 import './App.css';
 import LandingPage from '../LandingPage/LandingPage'
 import TopBar from '../TopBar/TopBar'
-import reactDom from 'react-dom';
 
 function App() 
 {
   return (
     <div className="App">
       <TopBar/>
-      <section className="one">
+      <section className="LandingPage">
         <LandingPage/>
       </section>
-      <section className="two">
+
+      <section className="Skills-Process">
         <p>
           second page 
         </p>
       </section>
-      <section className="three">
+      
+      <section className="Contact">
         <p>
           third page 
-        </p>
-      </section>
-      <section className="four">
-        <p>
-          fourth page 
-        </p>
-      </section>
-      <section className="five">
-        <p>
-          fifth page
         </p>
       </section>
     </div>
@@ -37,7 +28,3 @@ function App()
 }
 
 export default App;
-
-
-//<TopBar/>
-//<LandingPage/> 

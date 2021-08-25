@@ -16,18 +16,6 @@
   justify-content: center;
 }
 
-.Text
-{
-  min-height: 90vh;
-  min-width: 90vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-end;
-  
-  font-size: calc(1px + 1.5vmin);
-}
-
 .Title
 {
   display: flex;

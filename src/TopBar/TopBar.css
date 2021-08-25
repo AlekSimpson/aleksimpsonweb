@@ -4,10 +4,15 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-
-    
+    background-color: black;    
     z-index: 10;
     position: fixed;
+    padding-bottom: 1%;
+}
+
+.navbutttons
+{
+    display: none;
 }
 
 .MenuIcon

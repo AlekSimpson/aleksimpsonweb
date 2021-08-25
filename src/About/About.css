@@ -1,0 +1,27 @@
+.TextContainer
+{
+    min-height: 90vh;
+    min-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 7%;
+}
+
+.Heading
+{
+    display: flex;
+    padding-bottom: 1%;
+    font-size: xx-large;
+}
+
+.Text
+{
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(1px + 1vmin);
+  width: 900px;
+  overflow-wrap:anywhere;
+}

@@ -2,6 +2,10 @@ import React from 'react'
 import './App.css';
 import LandingPage from '../LandingPage/LandingPage'
 import TopBar from '../TopBar/TopBar'
+import About from '../About/About'
+import Contact from '../Contact/Contact'
+import Work from '../Work/Work'
+import Skills from '../Skills/Skills'
 
 function App() 
 {
@@ -12,16 +16,20 @@ function App()
         <LandingPage/>
       </section>
 
-      <section className="Skills-Process">
-        <p>
-          second page 
-        </p>
+      <section className="About">
+        <About/>
       </section>
-      
+
+      <section className="Work">
+        <Work/>
+      </section>
+
+      <section className="Skills-Process">
+        <Skills/>
+      </section>
+
       <section className="Contact">
-        <p>
-          third page 
-        </p>
+        <Contact/>
       </section>
     </div>
   );

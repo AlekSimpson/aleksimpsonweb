@@ -4,6 +4,28 @@ import './TopBar.css'
 import { AiOutlineMenu } from 'react-icons/ai'
 import { IconContext } from 'react-icons'
 
+function NavButtons()
+{
+    function clicked()
+    {
+        console.log("button was clicked")
+    }
+
+    return(
+        <div>
+            <button onClick={clicked}>
+                About/
+            </button>
+            <button onClick={clicked}>
+                Work/
+            </button>
+            <button onClick={clicked}>
+                Contact/
+            </button>
+        </div>
+    )
+}
+
 function TopBar()
 {
     return(

@@ -10,6 +10,6 @@ section
 
   background-color: black;
   color: white;
-
+  overflow-x: hidden;
   scroll-snap-align: start;
 }

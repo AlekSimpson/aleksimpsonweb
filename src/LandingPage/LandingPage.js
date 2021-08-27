@@ -12,7 +12,7 @@ function LandingPage()
                     Hi, <br/>I am Alek.  
                 </div>
                 <div className="Sub-intro">
-                    Freelancer / Web Dev / Programmer
+                    Freelancer / Front End Developer / Programmer
                 </div>
             </div>
         </div>

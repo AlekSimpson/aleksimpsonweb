@@ -12,7 +12,7 @@ function NavButtons()
     }
 
     return(
-        <div>
+        <div className="navbuttons">
             <button onClick={clicked}>
                 About/
             </button>

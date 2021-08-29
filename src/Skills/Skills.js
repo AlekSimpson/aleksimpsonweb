@@ -27,16 +27,14 @@ function MainText()
     )
 }
 
-function Percent()
+function Percent({ title, percent })
 {
     return(
         <div className="PercentContainer">
             <div className="PercentTitle">
-
+                {title}
             </div>
-            <div className="Percent">
-
-            </div>
+            <div className="Percent" style={{ width: percent }}/>
         </div>
     )
 }
@@ -45,7 +43,11 @@ function TechPercents()
 {
     return(
         <div className="Percents">
-            Test
+            <Percent title="ReactJS" percent="90%"/>
+            <Percent title="HTML" percent="80%"/>
+            <Percent title="CSS" percent="65%"/>
+            <Percent title="Swift" percent="95%"/>
+            <Percent title="Backend" percent="65%"/>
         </div>
     )
 }
